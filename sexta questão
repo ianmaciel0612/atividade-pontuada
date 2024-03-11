@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    real nota1, nota2, resultado
+    real soma, divisao
+
+    escreva("digite a primeira a nota: ")
+    leia(nota1)
+
+    escreva("digite a segunda nota: ")
+    leia(nota2)
+
+    resultado = (nota1 + nota2) /2
+    
+      escreva("resultado: ", resultado)
+
+    se (resultado >= 6.0){
+      escreva("prabéns, você foi aprovado!!")
+    }senao{
+      (resultado == 4.0)
+      escreva("\naluno em recuperação! ")
+    } 
+
+    se ( resultado >= 4.0){
+      escreva("\naluno reprovado!")
+
+    }
+
+
+
+
+  }
+}
